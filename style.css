@@ -1,4 +1,200 @@
 @charset "utf-8";
+html,
+body { height:100%; width:100%; max-width:initial !important; } 
+body {background-color: #121315;} 
+body.active { overflow:hidden; } 
+html,
+body,
+*,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {color:#fff; letter-spacing: -0.05em; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; box-sizing: border-box; font-family:"NotoSansKR","Segoe-UI","맑은 고딕","malgun gothic","돋움","dotum",sans-serif; } 
+li,
+ul,
+ol { list-style:none; } 
+a { color:#fff; text-decoration:none !important; outline:0; border:0; } 
+button { outline:0; border:0; } 
+h1,
+h2,
+h3,
+p,
+span
+a { word-break:keep-all; } 
+.txt_hidden { font-size:0; line-height:0; color:transparent; overflow:hidden; text-indent:-999999px; } 
+i.icon { display: inline-block; text-indent: -99999px; } 
+i.icon.pick { width: 60px; height:35px; background: url(/skin-skin24/img/pick_ico.svg)center center/contain no-repeat; } 
+.btn_style_01 {z-index: 2;  border:1px solid #653A28; background: #653A281A 0% 0% no-repeat padding-box; font-size: var(--ssm-default-size--); color: #653A28; width:100%; max-width: 150px; height:50px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0 8px; border-radius: 25px; } 
+@media(max-width:1024px){
+ /* icon */
+
+ /* btn */
+.btn_style_01 { max-width: 130px; height:40px; } 
+
+}
+
+ /* responsive */
+ .only_mo { display:none; } 
+ .only_ta { display:none; } 
+
+ /* space system */
+ :root { --r-space--:30px; --l-space--:50px; --xl-space--:60px; --xxl-space--: 110px; } 
+ @media (max-width:1024px){
+ :root { --r-space--:20px; --l-space--:35px; --xl-space--:30px; --xxl-space--:60px; } 
+ }
+
+ @media (min-width:1025px){
+ .only_ta { display:none; } 
+ .only_mo { display:none; } 
+ }
+
+ @media (max-width:1024px){
+ .only_ta { display:inline-block; } 
+ }
+
+ @media (max-width:768px){
+ .only_ta { display:none; } 
+ .only_mo { display:inline-block; } 
+ }
+
+/* fontsize */
+:root { --ssm-default-size--: 16px; --sm-default-size--: 18px; --l-default-size--: 28px; --xl-default-size--: 54px; --subTitle-size--: 40px; --sub-r-size--: 20px; --sub-r-size02--: 20px; } 
+@media (max-width:1024px){
+:root { --ssm-default-size--: 15px; --sm-default-size--: 16px; --l-default-size--: 20px; --xl-default-size--: 36px; --subTitle-size--: 30px; --sub-r-size--: 16px; --sub-r-size02--: 18px; } 
+}
+/* color_css */
+.col_brown { color:#653A28; } 
+.col_blue { color:#2151A7; } 
+/* scetion_common */
+.sec_m { margin:110px 0; } 
+.sec_m01 { margin:110px 0 0; } 
+.sec_p { padding:110px 0; box-sizing: border-box; } 
+/* br_block */
+.block_1024 { display:none; } 
+.none_1024 { display:block; } 
+.block_768 { display:none; } 
+.none_768 { display:block; } 
+
+/* header */
+
+@media(hover:hover){
+
+}
+
+/* side_nav */
+
+/* footer */
 
 
+@media (max-width:1600px) { /* */
+/* max-width */
+.w1600 { padding:0 20px; box-sizing: border-box; } 
+ /* scetion_common */
+.sec_m { margin:140px 0; } 
+.sec_m01 { margin:140px 0 0; } 
+.sec_p { padding:140px 0; box-sizing: border-box; } 
 
+/* header */
+
+}
+
+@media (max-width:1024px) { /* */
+.mob_display { display:none; } 
+#header .flex { justify-content: space-between; } 
+/* scetion_common */
+.sec_m { margin:60px 0; } 
+.sec_m01 { margin:60px 0 0; } 
+.sec_p { padding:60px 0; box-sizing: border-box; } 
+/* br_block */
+.block_1024 { display:block; } 
+.none_1024 { display:none; } 
+/* header */
+
+/* mobile_nav */
+
+/* footer */
+
+}
+
+@media (max-width:768px) { /* */
+/* br_block */
+.block_768 { display:block; } 
+.none_768 { display:none; } 
+/* footer */
+
+}

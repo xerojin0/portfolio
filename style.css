@@ -99,7 +99,9 @@ a { word-break:keep-all; }
 .txt_hidden { font-size:0; line-height:0; color:transparent; overflow:hidden; text-indent:-999999px; } 
 i.icon { display: inline-block; text-indent: -99999px; } 
 i.icon.lightMode { width: 21px; height:21px; background: url("/img/icon_linght_mode.webp") no-repeat center /cover; } 
-.btn_style_01 { border:2px solid #fff; background: transparent; font-size: var(--ssm-default-size--); font-weight: 700; color: #fff; width:100%; max-width: 140px; height:40px; display: flex; justify-content: center; align-items: center; border-radius: 10px; } 
+i.icon.link { width: 24px; height:20px; background: url("/img/icon_link.svg") no-repeat center /cover; } 
+.btn_style_01 { border:2px solid #fff; background: transparent; font-size: var(--ssm-default-size--); line-height: 15px; font-weight: 700; color: #fff; width:100%; max-width: 140px; height:40px; display: flex; justify-content: center; align-items: center; border-radius: 10px; } 
+
 @media(max-width:1024px){
  /* icon */
 
@@ -132,9 +134,9 @@ i.icon.lightMode { width: 21px; height:21px; background: url("/img/icon_linght_m
  }
 
 /* fontsize */
-:root { --ssm-default-size--: 15px; --sm-default-size--: 20px; --l-default-size--: 64px; --xl-default-size--: 70px; --subTitle-size--: 40px; --sub-r-size--: 20px; --sub-r-size02--: 20px; } 
+:root { --ssm-default-size--: 15px; --sm-default-size--: 20px; --l-default-size--: 64px; --xl-default-size--: 70px; --subTitle-size--: 30px; --sub-r-size--: 20px; --sub-r-size02--: 20px; } 
 @media (max-width:1024px){
-:root { --ssm-default-size--: 14px; --sm-default-size--: 18px; --l-default-size--: 48px; --xl-default-size--: 54px; --subTitle-size--: 30px; --sub-r-size--: 16px; --sub-r-size02--: 18px; } 
+:root { --ssm-default-size--: 14px; --sm-default-size--: 18px; --l-default-size--: 48px; --xl-default-size--: 54px; --subTitle-size--: 28px; --sub-r-size--: 16px; --sub-r-size02--: 18px; } 
 }
 /* scetion_common */
 .sec_m { margin:110px 0; } 
@@ -149,7 +151,7 @@ i.icon.lightMode { width: 21px; height:21px; background: url("/img/icon_linght_m
 /* header */
 header{z-index: 100; position: fixed; top:0; left:0; width:100%; padding:20px 60px; box-sizing: border-box;}
 header > nav{display: flex; align-items: center; justify-content: space-between;}
-header .logo > a{font-size: 48px; font-weight: 600;}
+header a.logo{font-size: 48px; font-weight: 600;}
 header .light_mode{display: flex; align-items: center; justify-content: center; cursor: pointer; padding:10px; box-sizing: border-box; border-radius: 50%; background-color: #25272B;}
 
 

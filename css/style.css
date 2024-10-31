@@ -98,8 +98,8 @@ span
 a { word-break:keep-all; } 
 .txt_hidden { font-size:0; line-height:0; color:transparent; overflow:hidden; text-indent:-999999px; } 
 i.icon { display: inline-block; text-indent: -99999px; } 
-i.icon.lightMode { width: 21px; height:21px; background: url("/portfolio//img/icon_linght_mode.webp") no-repeat center /cover; } 
-i.icon.link { width: 24px; height:20px; background: url("/portfolio//img/icon_link.svg") no-repeat center /cover; } 
+i.icon.lightMode { width: 21px; height:21px; background: url("/portfolio/img/icon_linght_mode.webp") no-repeat center /cover; } 
+i.icon.link { width: 24px; height:20px; background: url("/portfolio/img/icon_link.svg") no-repeat center /cover; } 
 .btn_style_01 { border:2px solid #fff; background: transparent; font-size: var(--ssm-default-size--); line-height: 15px; font-weight: 700; color: #fff; width:100%; max-width: 140px; height:40px; display: flex; justify-content: center; align-items: center; border-radius: 10px; } 
 .btn_style_02 {font-size: var(--ssm-default-size--); font-weight: 700; max-width:130px; width:100%; padding:12px 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 30px; background-color: #0071E3; color:#fff;}
 @media(max-width:1024px){

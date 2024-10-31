@@ -1,8 +1,8 @@
 @charset "utf-8";
 html,
-body { height:100%; width:100%; max-width:initial !important; } 
+body { height:100%; width:100%; max-width:initial !important; overflow-x:hidden;} 
 body {background-color: #121315;} 
-body.active { overflow:hidden; } 
+body.active {  } 
 html,
 body,
 *,
@@ -134,9 +134,9 @@ i.icon.link { width: 24px; height:20px; background: url("/img/icon_link.svg") no
  }
 
 /* fontsize */
-:root { --ssm-default-size--: 15px; --sm-default-size--: 20px; --l-default-size--: 64px; --xl-default-size--: 70px; --subTitle-size--: 30px; --sub-r-size--: 20px; --sub-r-size02--: 20px; } 
+:root { --ssm-default-size--: 15px; --sm-default-size--: 20px; --l-default-size--: 64px; --xl-default-size--: 70px; --subTitle-size--: 30px; --sub-r-size--: 50px; --sub-r-size02--: 20px; } 
 @media (max-width:1024px){
-:root { --ssm-default-size--: 14px; --sm-default-size--: 18px; --l-default-size--: 48px; --xl-default-size--: 54px; --subTitle-size--: 28px; --sub-r-size--: 16px; --sub-r-size02--: 18px; } 
+:root { --ssm-default-size--: 14px; --sm-default-size--: 18px; --l-default-size--: 48px; --xl-default-size--: 54px; --subTitle-size--: 28px; --sub-r-size--: 34px; --sub-r-size02--: 18px; } 
 }
 /* scetion_common */
 .sec_m { margin:110px 0; } 

@@ -1,6 +1,6 @@
 @charset "utf-8";
 html,
-body { height:100%; width:100%; max-width:initial !important; overflow-x:hidden;} 
+body { height:100%; width:100%; max-width:initial !important; } 
 body {background-color: #121315;} 
 body.active {  } 
 html,
@@ -101,7 +101,7 @@ i.icon { display: inline-block; text-indent: -99999px; }
 i.icon.lightMode { width: 21px; height:21px; background: url("/img/icon_linght_mode.webp") no-repeat center /cover; } 
 i.icon.link { width: 24px; height:20px; background: url("/img/icon_link.svg") no-repeat center /cover; } 
 .btn_style_01 { border:2px solid #fff; background: transparent; font-size: var(--ssm-default-size--); line-height: 15px; font-weight: 700; color: #fff; width:100%; max-width: 140px; height:40px; display: flex; justify-content: center; align-items: center; border-radius: 10px; } 
-
+.btn_style_02 {font-size: var(--ssm-default-size--); font-weight: 700; max-width:130px; width:100%; padding:12px 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 30px; background-color: #0071E3; color:#fff;}
 @media(max-width:1024px){
  /* icon */
 
@@ -151,7 +151,7 @@ i.icon.link { width: 24px; height:20px; background: url("/img/icon_link.svg") no
 /* header */
 header{z-index: 100; position: fixed; top:0; left:0; width:100%; padding:20px 60px; box-sizing: border-box;}
 header > nav{display: flex; align-items: center; justify-content: space-between;}
-header a.logo{font-size: 48px; font-weight: 600;}
+header a.logo{font-size: 48px; font-weight: 500;}
 header .light_mode{display: flex; align-items: center; justify-content: center; cursor: pointer; padding:10px; box-sizing: border-box; border-radius: 50%; background-color: #25272B;}
 
 

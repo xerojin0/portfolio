@@ -46,10 +46,10 @@ section[class*="sect"] > article { padding:110px 60px; box-sizing: border-box; }
 .portfolio_list .descript > div.info .summary_01{font-weight: 700;}
 .portfolio_list .descript > div.info .summary_02{font-weight: 500; color:#B5B5B5}
 
-.portfolio_list div.PF_thums01{background: url("/img/mockup_04.webp") no-repeat center /cover;}
-.portfolio_list div.PF_thums02{background: url("/img/mockup_05.webp") no-repeat center /cover;}
-.portfolio_list div.PF_thums03{background: url("/img/mockup_06.webp") no-repeat center /cover;}
-.portfolio_list div.PF_thums04{background: url("/img/mockup_07.webp") no-repeat center /cover;}
+.portfolio_list div.PF_thums01{background: url("portfolio/img/mockup_04.webp") no-repeat center /cover;}
+.portfolio_list div.PF_thums02{background: url("portfolio/img/mockup_05.webp") no-repeat center /cover;}
+.portfolio_list div.PF_thums03{background: url("portfolio/img/mockup_06.webp") no-repeat center /cover;}
+.portfolio_list div.PF_thums04{background: url("portfolio/img/mockup_07.webp") no-repeat center /cover;}
 
 /* sect03 */
 .sect03 .title_wrap{display: flex; flex-direction: column; gap:50px;}

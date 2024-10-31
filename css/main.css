@@ -1,4 +1,4 @@
-@charset "utf-8"; /* */
+@charset "utf-8"; 
 /* common */
 section[class*="sect"] > article { padding:110px 60px; box-sizing: border-box; } 
 /* title_css */

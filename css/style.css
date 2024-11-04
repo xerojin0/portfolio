@@ -1,4 +1,6 @@
-@charset "utf-8";html,
+@charset "utf-8";/* */
+html { scroll-behavior: smooth; } 
+html,
 body { height:100%; width:100%; max-width:initial !important; } 
 body { background-color: #121315; } 
 body.active { } 
@@ -133,7 +135,8 @@ i.icon.link { width: 24px; height:20px; background: url("../img/icon_link.svg") 
 
 /* fontsize */
 :root { --ssm-default-size--: 15px; --sm-default-size--: 20px; --l-default-size--: 64px; --xl-default-size--: 70px; --subTitle-size--: 30px; --sub-r-size--: 50px; --sub-r-size02--: 20px; } 
-@media (max-width:1024px) {:root { --ssm-default-size--: 14px; --sm-default-size--: 18px; --l-default-size--: 48px; --xl-default-size--: 54px; --subTitle-size--: 28px; --sub-r-size--: 34px; --sub-r-size02--: 18px; } 
+@media (max-width:1024px){
+ :root { --ssm-default-size--: 14px; --sm-default-size--: 18px; --l-default-size--: 48px; --xl-default-size--: 54px; --subTitle-size--: 28px; --sub-r-size--: 34px; --sub-r-size02--: 18px; } 
  }
 /* scetion_common */
 .sec_m { margin:110px 0; } 
@@ -150,10 +153,10 @@ header > nav { display: flex; align-items: center; justify-content: space-betwee
 header a.logo { font-size: 48px; font-weight: 500; } 
 header .light_mode { display: flex; align-items: center; justify-content: center; cursor: pointer; padding:10px; box-sizing: border-box; border-radius: 50%; background-color: #25272B; } 
 /* scroll_bar */
-body::-webkit-scrollbar { width: 5px;} 
-body::-webkit-scrollbar-thumb {background-color: #fff; border-radius: 5px;} 
-body::-webkit-scrollbar-track {background-color: rgba(181, 181, 181, 30%); } 
-@media(hover:hover) {}
+body::-webkit-scrollbar { width: 5px; } 
+body::-webkit-scrollbar-thumb { background-color: #fff; border-radius: 5px; } 
+body::-webkit-scrollbar-track { background-color: rgba(181, 181, 181, 30%); } 
+@media(hover:hover) { } 
 
 /* side_nav */
 
@@ -168,8 +171,7 @@ body::-webkit-scrollbar-track {background-color: rgba(181, 181, 181, 30%); }
 .sec_m01 { margin:140px 0 0; } 
 .sec_p { padding:140px 0; box-sizing: border-box; } 
 
-/* header */
-}
+/* header */}
 
 @media (max-width:1024px) { /* */
 .mob_display { display:none; } 
@@ -185,12 +187,10 @@ body::-webkit-scrollbar-track {background-color: rgba(181, 181, 181, 30%); }
 
 /* mobile_nav */
 
-/* footer */
-}
+/* footer */}
 
 @media (max-width:768px) { /* */
 /* br_block */
 .block_768 { display:block; } 
 .none_768 { display:none; } 
-/* footer */
-}
+/* footer */}

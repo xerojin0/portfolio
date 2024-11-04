@@ -5,4 +5,6 @@ $(document).ready(function () {
     loop: false,
     loopAdditionalSlides: 1,
   });
+
+  
 });

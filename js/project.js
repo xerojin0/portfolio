@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
       pfFrame.innerHTML +=
         "<li class='swiper-slide'>" +
         "<div class='project_thums'>" +
-        "<img src='/img/" +
+        "<img src='/portfolio/img/" +
         homepageList[i].img +
         ".webp' alt='" +
         homepageList[i].name +

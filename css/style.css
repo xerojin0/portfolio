@@ -104,9 +104,11 @@ i.icon.link { width: 24px; height:20px; background: url("../img/icon_link.svg") 
 .btn_style_01 { border:2px solid #fff; background: transparent; font-size: var(--ssm-default-size--); line-height: 15px; font-weight: 700; color: #fff; width:100%; max-width: 140px; height:40px; display: flex; justify-content: center; align-items: center; border-radius: 10px; } 
 .btn_style_02 { font-size: var(--ssm-default-size--); font-weight: 700; max-width:130px; width:100%; padding:12px 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 30px; background-color: #0071E3; color:#fff; } 
 @media(max-width:1024px) { /* icon */
-
  /* btn */
 .btn_style_01 { max-width: 130px; height:40px; } 
+i.icon.lightMode { width: 15px; height:15px; } 
+i.icon.link { width: 20px; height:16px;} 
+
  }
 
  /* responsive */
@@ -184,6 +186,10 @@ body::-webkit-scrollbar-track { background-color: rgba(181, 181, 181, 30%); }
 .block_1024 { display:block; } 
 .none_1024 { display:none; } 
 /* header */
+header{padding:20px;}
+header a.logo{font-size:30px;}
+header .light_mode{padding:8px;}
+
 
 /* mobile_nav */
 

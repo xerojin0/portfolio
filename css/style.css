@@ -1,8 +1,8 @@
-@charset "utf-8";/* */
+@charset "utf-8"; /* */
 html { scroll-behavior: smooth; } 
 html,
 body { height:100%; width:100%; max-width:initial !important; } 
-body { background-color: #121315; } 
+body {transition: all .3s; background-color: #121315; } 
 body.active { } 
 html,
 body,
@@ -99,17 +99,19 @@ span
 a { word-break:keep-all; } 
 .txt_hidden { font-size:0; line-height:0; color:transparent; overflow:hidden; text-indent:-999999px; } 
 i.icon { display: inline-block; text-indent: -99999px; } 
-i.icon.lightMode { width: 21px; height:21px; background: url("../img/icon_linght_mode.webp") no-repeat center /cover; } 
+i.icon.darkMode { width: 21px; height:21px; background: url("../img/icon_linght_mode.webp") no-repeat center /cover; } 
+i.icon.lightMode { width: 21px; height:21px; background: url("../img/icon_dark_mode.webp") no-repeat center /cover; } 
 i.icon.link { width: 24px; height:20px; background: url("../img/icon_link.svg") no-repeat center /cover; } 
+i.link_url {display: inline-block; text-indent: -99999px; width: 24px; height:20px; background: url("../img/icon_link.svg") no-repeat center /cover; }
 .btn_style_01 { border:2px solid #fff; background: transparent; font-size: var(--ssm-default-size--); line-height: 15px; font-weight: 700; color: #fff; width:100%; max-width: 140px; height:40px; display: flex; justify-content: center; align-items: center; border-radius: 10px; } 
 .btn_style_02 { font-size: var(--ssm-default-size--); font-weight: 700; max-width:130px; width:100%; padding:12px 0; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border-radius: 30px; background-color: #0071E3; color:#fff; } 
 @media(max-width:1024px) { /* icon */
  /* btn */
 .btn_style_01 { max-width: 130px; height:40px; } 
-i.icon.lightMode { width: 15px; height:15px; } 
-i.icon.link { width: 20px; height:16px;} 
-
- }
+i.icon.lightMode, i.icon.darkMode{width: 15px; height:15px; } 
+i.icon.link { width: 20px; height:16px; } 
+i.link_url{width: 20px; height:16px; }
+}
 
  /* responsive */
  .only_mo { display:none; } 
@@ -153,7 +155,8 @@ i.icon.link { width: 20px; height:16px;}
 header { z-index: 100; position: fixed; top:0; left:0; width:100%; padding:20px 60px; box-sizing: border-box; } 
 header > nav { display: flex; align-items: center; justify-content: space-between; } 
 header a.logo { font-size: 48px; font-weight: 500; } 
-header .light_mode { display: flex; align-items: center; justify-content: center; cursor: pointer; padding:10px; box-sizing: border-box; border-radius: 50%; background-color: #25272B; } 
+header .color_switch {transition: all .3s; display: flex; align-items: center; justify-content: center; cursor: pointer; padding:10px; box-sizing: border-box; border-radius: 50%; } 
+
 /* scroll_bar */
 body::-webkit-scrollbar { width: 5px; } 
 body::-webkit-scrollbar-thumb { background-color: #fff; border-radius: 5px; } 
@@ -173,7 +176,7 @@ body::-webkit-scrollbar-track { background-color: rgba(181, 181, 181, 30%); }
 .sec_m01 { margin:140px 0 0; } 
 .sec_p { padding:140px 0; box-sizing: border-box; } 
 
-/* header */}
+/* header */ } 
 
 @media (max-width:1024px) { /* */
 .mob_display { display:none; } 
@@ -186,17 +189,37 @@ body::-webkit-scrollbar-track { background-color: rgba(181, 181, 181, 30%); }
 .block_1024 { display:block; } 
 .none_1024 { display:none; } 
 /* header */
-header{padding:20px;}
-header a.logo{font-size:30px;}
-header .light_mode{padding:8px;}
+header { padding:20px; } 
+header a.logo { font-size:30px; } 
+header .color_switch { padding:8px; } 
 
 
 /* mobile_nav */
 
-/* footer */}
+/* footer */ } 
 
 @media (max-width:768px) { /* */
 /* br_block */
 .block_768 { display:block; } 
 .none_768 { display:none; } 
-/* footer */}
+/* footer */ } 
+
+
+
+/* mode_chage */
+/* light_mode */
+.light_mode body{background-color: #fff;}
+.light_mode * {color:#121315;}
+.light_mode header .color_switch{background-color: rgb(211 211 211 / 40%);}
+.light_mode .btn_style_01{border:2px solid #121315;}
+.light_mode .btn_style_02{color:#fff;}
+.light_mode .link_btn{border-color: #121315;}
+.light_mode i.icon.link {background: url("../img/icon_link_black.svg") no-repeat center /cover; } 
+/* scroll_bar */
+.light_mode body::-webkit-scrollbar { width: 5px; } 
+.light_mode body::-webkit-scrollbar-thumb { background-color: #000; border-radius: 5px; } 
+.light_mode body::-webkit-scrollbar-track { background-color: rgba( 0, 0, 0, 50%); }
+
+/* dark_mode */
+.dark_mode body{ background-color: #121315; }
+.dark_mode header .color_switch{  background-color: rgba(37, 39, 43, 40%);}

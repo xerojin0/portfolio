@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "<a href='" +
         homepageList[i].url +
         "' target='_blank'>" +
-        "<i class='icon link'></i>" +
+        "<i class='link_url'></i>" +
         "</a>" +
         "</div>" +
         "<div class='project_info'>" +

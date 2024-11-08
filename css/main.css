@@ -1,5 +1,6 @@
 @charset "utf-8"; /* */
 /* common */
+section{overflow: hidden;}
 section[class*="sect"] > article { padding:var(--xxl-space--) 60px; box-sizing: border-box; } 
 /* title_css */
 .title { font-size: var(--l-default-size--); font-weight: 300; } 

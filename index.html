@@ -16,7 +16,12 @@
     <!-- // swiper // -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- ajax -->
+    <!-- gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
   </head>
   <body id="main">
     <header>
@@ -178,3 +183,329 @@
     </section>
   </body>
 </html>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  const t1 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".visual",
+      start: "50% center",
+      end: "bottom center",
+      toggleActions: "restart none reverse none",
+      scrub: 4,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect01 .best_list > li:nth-child(1)",
+      start: "top center",
+      end: "bottom center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t3 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect01 .best_list > li:nth-child(1)",
+      start: "top center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t4 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect01 .best_list > li:nth-child(2)",
+      start: "top center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t5 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect01 .best_list > li:nth-child(2)",
+      start: "top center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t6 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect01 .best_list > li:nth-child(3)",
+      start: "top center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t7 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect01 .best_list > li:nth-child(3)",
+      start: "top center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t8 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect02",
+      start: "top center",
+      end: "20% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t9 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect02",
+      start: "top center",
+      end: "20% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t10 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03",
+      start: "top center",
+      end: "10% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t11 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03",
+      start: "top center",
+      end: "10% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t12 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03 .skill_list > .left",
+      start: "top center",
+      end: "30% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t13 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03 .skill_list > .right",
+      start: "top center",
+      end: "30% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t14 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03 .skill_list > .left",
+      start: "20% center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t15 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03 .skill_list > .right",
+      start: "20% center",
+      end: "50% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t16 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03 .skill_list > .left",
+      start: "40% center",
+      end: "70% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t17 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect03 .skill_list > .right",
+      start: "40% center",
+      end: "70% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t18 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect04",
+      start: "top center",
+      end: "20% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t19 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect04",
+      start: "20% center",
+      end: "40% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t20 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect04",
+      start: "40% center",
+      end: "45% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t21 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect04",
+      start: "top center",
+      end: "40% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+  const t22 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".sect04",
+      start: "top center",
+      end: "40% center",
+      toggleActions: "restart none none none",
+      scrub: 1,
+      markers: false,
+      anticipatePin: 1,
+    },
+  });
+
+  t1.fromTo(".sect01 .title_wrap", { x: -800 }, { x: 0, duration: 0.3, ease: "power2.inOut" });
+  t2.fromTo(".sect01 .best_list > li:nth-child(1) > .info", { y: 400 }, { y: 0, duration: 1 });
+  t3.fromTo(".sect01 .best_list > li:nth-child(1) > img", { x: 400, rotation: 15, opacity:0 }, { x: 0, rotation: 0, opacity:1, duration: 1 });
+  t4.fromTo(".sect01 .best_list > li:nth-child(2) > .info", { y: 400 }, { y: 0, duration: 1 });
+  t5.fromTo(".sect01 .best_list > li:nth-child(2) > img", { x: -400, rotation: -15, opacity:0 }, { x: 0, rotation: 0, opacity:1, duration: 1 });
+  t6.fromTo(".sect01 .best_list > li:nth-child(3) > .info", { y: 400 }, { y: 0, duration: 1 });
+  t7.fromTo(".sect01 .best_list > li:nth-child(3) > img", { x: 400, rotation: 15, opacity:0 }, { x: 0, rotation: 0, opacity:1, duration: 1 });
+  t8.fromTo(".sect02 .title_wrap .title", { x: -400 }, { x: 0, duration: 1 });
+  t9.fromTo(".sect02 .title_wrap .desc", { x: 400 }, { x: 0, duration: 1 });
+  t10.fromTo(".sect03 .title_wrap .title", { x: -200 }, { x: 0, duration: 1 });
+  t11.fromTo(".sect03 .title_wrap .desc", { x: -400 }, { x: 0, duration: 1 });
+  t12.fromTo(".sect03 .skill_list .html", { x: -400, rotation: -15, opacity: 0 }, { x: 0, rotation: 0, opacity: 1, duration: 1 });
+  t13.fromTo(".sect03 .skill_list .jquery", { x: 400, rotation: 15, opacity: 0 }, { x: 0, rotation: 0, opacity: 1, duration: 1 });
+  t14.fromTo(".sect03 .skill_list .css", { x: -400, rotation: -15, opacity: 0 }, { x: 0, rotation: 0, opacity: 1, duration: 1 });
+  t15.fromTo(".sect03 .skill_list .ps_ai", { x: 400, rotation: 15, opacity: 0 }, { x: 0, rotation: 0, opacity: 1, duration: 1 });
+  t16.fromTo(".sect03 .skill_list .js", { x: -400, rotation: -15, opacity: 0 }, { x: 0, rotation: 0, opacity: 1, duration: 1 });
+  t17.fromTo(".sect03 .skill_list .xd_figma", { x: 400, rotation: 15, opacity: 0 }, { x: 0, rotation: 0, opacity: 1, duration: 1 });
+  t18.fromTo(".sect04 .title_wrap > .title", { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+
+  // 모바일과 데스크탑 구분
+  const mediaQuery = window.matchMedia("(max-width: 1024px)");
+
+  if (mediaQuery.matches) {
+    const t19Mobile = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".sect04",
+        start: "top center",
+        end: "10% center",
+        toggleActions: "restart none none none",
+        scrub: 1,
+        markers: false,
+        anticipatePin: 1,
+      },
+    });
+    const t20Mobile = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".sect04",
+        start: "top center",
+        end: "10% center",
+        toggleActions: "restart none none none",
+        scrub: 1,
+        markers: false,
+        anticipatePin: 1,
+      },
+    });
+    const t21Mobile = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".sect04",
+        start: "top center",
+        end: "10% center",
+        toggleActions: "restart none none none",
+        scrub: 1,
+        markers: false,
+        anticipatePin: 1,
+      },
+    });
+    const t22Mobile = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".sect04",
+        start: "top center",
+        end: "10% center",
+        toggleActions: "restart none none none",
+        scrub: 1,
+        markers: false,
+        anticipatePin: 1,
+      },
+    });
+
+    t19Mobile.fromTo(".sect04 .title_wrap > .desc", { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+    t20Mobile.fromTo(".sect04 .title_wrap > a", { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+    t21Mobile.fromTo(".sect04 .address ul > li:nth-child(1)", { y: 400 }, { y: 0, duration: 1, delay: 1 });
+    t22Mobile.fromTo(".sect04 .address ul > li:nth-child(2)", { y: 400 }, { y: 0, duration: 1, delay: 3 });
+  } else {
+    t19.fromTo(".sect04 .title_wrap > .desc", { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+    t20.fromTo(".sect04 .title_wrap > a", { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+    t21.fromTo(".sect04 .address ul > li:nth-child(1)", { y: 400 }, { y: 0, duration: 1});
+    t22.fromTo(".sect04 .address ul > li:nth-child(2)", { y: 400 }, { y: 0, duration: 1, delay: 1  });
+  }
+</script>

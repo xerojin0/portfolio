@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "<li class='swiper-slide'>" +
         "<div class='project_thums'>" +
         "<img src='/portfolio/img/" +
-       // "<img src='/img/" +
+        //"<img src='/img/" +
         homepageList[i].img +
         ".webp' alt='" +
         homepageList[i].name +

@@ -27,14 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
       technic: "Markup, Responsive, Swiper.js",
     },
     {
-      url: "https://sywater114.cafe24.com/",
-      img: "shinseagea",
-      name: "신영지하수개발",
-      project: "신영지하수개발",
-      Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js",
-    },
-    {
       url: "https://jcy6820.cafe24.com/",
       img: "shinseagea",
       name: "법무법인신세계",

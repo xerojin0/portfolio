@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
       img: "yeonkkochi",
       name: "연꽃치",
       project: "연꽃치",
-      Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js",
+      Contribution: "프로젝트 기여도 _ 퍼블리싱95%",
+      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
     },
     {
       url: "https://hjuook1.cafe24.com/skin-skin1",

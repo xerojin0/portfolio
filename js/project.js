@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "라움자동문",
       project: "라움자동문",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
+      technic: "Markup, Responsive, Swiper.js, Aos.js",
     },
     {
       url: "https://winterfog.cafe24.com/skin-skin1",
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "라온건축사무소",
       project: "라온건축사무소",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
+      technic: "Markup, Responsive, Swiper.js, Aos.js",
     },
     {
       url: "https://hjh0902.cafe24.com/skin-skin2",
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "울브스",
       project: "울브스",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
+      technic: "Markup, Responsive, Swiper.js, Aos.js",
     },
     {
       url: "https://hasung59.cafe24.com/skin-skin2",
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "씨티리무진",
       project: "씨티리무진",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
+      technic: "Markup, Responsive, Swiper.js, Aos.js",
     },
     {
       url: "https://rckjt007.cafe24.com/skin-skin2",
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "삼성드림요양원",
       project: "삼성드림요양원",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
+      technic: "Markup, Responsive, Swiper.js, Aos.js",
     },
     {
       url: "https://ynjjb.cafe24.com/skin-skin1/index.html",
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "영남직업전문학교",
       project: "영남직업전문학교",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
-      technic: "Markup, Responsive, Swiper.js, Aos.js, gsap",
+      technic: "Markup, Responsive, Swiper.js, Aos.js",
     },
     {
       url: "https://yeonkkochi0407.cafe24.com/skin-skin5",

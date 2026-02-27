@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       url: "https://hunny74.cafe24.com/",
-      img: "huny",
+      img: "huny_tem",
       name: "후니네반값티비",
       project: "후니네반값티비",
       Contribution: "프로젝트 기여도 _ 퍼블리싱100%",
